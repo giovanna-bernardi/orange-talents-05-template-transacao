@@ -24,4 +24,19 @@ public class Cartao {
         this.id = id;
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return "Cartao{" +
+                "email='" + email + '\'' +
+                '}';
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
