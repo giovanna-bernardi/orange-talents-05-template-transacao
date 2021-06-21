@@ -135,6 +135,7 @@ services:
       LOG_LEVEL: INFO
       KAFKA_HOST: "kafka:29092"
       JAEGER_ENDPOINT: http://jaeger:14268/api/traces
+      TRANSACTION_DELAY: 60000 # tempo em milisegunds
 
   jaeger:
     image: jaegertracing/all-in-one
